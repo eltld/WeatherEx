@@ -6,9 +6,10 @@
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
-    
-        <string name="temperature">20°</string>
+    <string name="temperature">20°</string>
     <string name="weather">晴间多云</string>
-        <string name="city">合肥</string>
+    <string name="city">合肥</string>
+    <string name="title_activity_cites">CitesListActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

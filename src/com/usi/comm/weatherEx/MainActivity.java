@@ -1,14 +1,13 @@
 package com.usi.comm.weatherEx;
 
-
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 
 import com.example.weatherEx.R;
@@ -31,34 +30,27 @@ public class MainActivity extends FragmentActivity {
 	 */
 	ViewPager mViewPager;
 
-	
-	Fragment citesList ;
-	
-	View citesView;
-	View bottom;
-	
+	Activity citesActivity;
+
 	@Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+
+		// Create the adapter that will return a fragment for each of the three
+		// primary sections of the app.
+		mSectionsPagerAdapter = new SectionsPagerAdapter(
+				getSupportFragmentManager());
+
+		// Set up the ViewPager with the sections adapter.
+		mViewPager = (ViewPager) findViewById(R.id.pager);
+		mViewPager.setAdapter(mSectionsPagerAdapter);
+
+		((ImageView) findViewById(R.id.img_cites))
+				.setOnClickListener(cityListClick);
 
 
-        // Create the adapter that will return a fragment for each of the three
-        // primary sections of the app.
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
-
-        // Set up the ViewPager with the sections adapter.
-        mViewPager = (ViewPager) findViewById(R.id.pager);
-        mViewPager.setAdapter(mSectionsPagerAdapter);
-        
-        ((ImageView)findViewById(R.id.img_cites)).setOnClickListener(cityListClick);
-
-        citesView = findViewById(R.id.fg_container);
-        citesList = getSupportFragmentManager().findFragmentById(R.id.cityListFragment);
-        
-        bottom = findViewById(R.id.bottom);
-
-    }
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -71,15 +63,18 @@ public class MainActivity extends FragmentActivity {
 
 		@Override
 		public void onClick(View v) {
-			mViewPager.setVisibility(View.GONE);
-			bottom.setVisibility(View.GONE);
-//			citesView.setAnimation(new TranslateAnimation(0, 400, 0, 600));
-//			citesView.startAnimation(new TranslateAnimation(0, 400, 0, 600));
-			citesView.setVisibility(View.VISIBLE);
+//			if(citesActivity == null) {
+//				citesActivity = new CitesActivity();
+//			}
 			
+			Intent t= new Intent(MainActivity.this,CitesActivity.class);
 			
+			startActivity(t);
 			
+			overridePendingTransition(R.anim.bottom_to_up_in, R.anim.bottom_to_up_out);
 		}
 	};
+
+
 
 }

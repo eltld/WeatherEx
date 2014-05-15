@@ -22,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.usi.comm.weatherEx.CitesActivity"
+            android:label="@string/title_activity_cites" >
+        </activity>
     </application>
 
 </manifest>

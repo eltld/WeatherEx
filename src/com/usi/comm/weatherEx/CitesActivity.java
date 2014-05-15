@@ -1,8 +1,10 @@
-package com.usi.comm.weatherEx.Fragment;
+package com.usi.comm.weatherEx;
 
+
+import android.app.ListActivity;
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -10,16 +12,21 @@ import android.widget.TextView;
 
 import com.example.weatherEx.R;
 
-public class CityListFragment extends ListFragment {
 
-
+public class CitesActivity extends ListActivity {
 
 	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
+	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_city_list);
 		setListAdapter(listAdapter);
-		
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		// getMenuInflater().inflate(R.menu.cites, menu);
+		return true;
 	}
 
 	BaseAdapter listAdapter = new BaseAdapter() {
@@ -29,7 +36,7 @@ public class CityListFragment extends ListFragment {
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			if (null == convertView) {
-				convertView = LayoutInflater.from(getActivity()).inflate(
+				convertView = LayoutInflater.from(CitesActivity.this).inflate(
 						R.layout.city, parent, false);
 			}
 			((TextView) convertView.findViewById(R.id.txt_city_name))

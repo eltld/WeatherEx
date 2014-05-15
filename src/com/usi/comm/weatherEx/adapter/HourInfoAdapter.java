@@ -1,7 +1,6 @@
 package com.usi.comm.weatherEx.adapter;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,10 +49,10 @@ public class HourInfoAdapter extends BaseAdapter {
 
 		TextView txt_hour = (TextView) convertView.findViewById(R.id.txt_time);
 		txt_hour.setText(getItem(position).toString());
-		if(position %2 ==0) {
-			convertView.setBackgroundColor(Color.LTGRAY);
-		}
 
+		
+		TextView txt_temperature = (TextView) convertView.findViewById(R.id.txt_h_temp);
+		txt_temperature.setText("22°");
 		return convertView;
 	}
 

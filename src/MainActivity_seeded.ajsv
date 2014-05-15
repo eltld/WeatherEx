@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)--><ajsv>
+    <diagram scope="scopeElementSets.elementSet.Switchable Subtypes" style="standardDiagramStyles.diagramStyle.Standard Basic Style" version="1.5.0">
+        <class className="com.usi.comm.weatherEx.MainActivity" project="WeatherEx" xLocation="0" yLocation="0"/>
+        <class className="com.usi.comm.weatherEx.Fragment.CityListFragment" project="WeatherEx" xLocation="20" yLocation="20"/>
+        <class className="com.usi.comm.weatherEx.Fragment.CityFragment" project="WeatherEx" xLocation="40" yLocation="40"/>
+        <class className="com.usi.comm.weatherEx.adapter.DayInfoAdapter" project="WeatherEx" xLocation="60" yLocation="60"/>
+        <class className="com.usi.comm.weatherEx.adapter.HourInfoAdapter" project="WeatherEx" xLocation="80" yLocation="80"/>
+        <class className="com.usi.comm.weatherEx.adapter.SectionsPagerAdapter" project="WeatherEx" xLocation="100" yLocation="100"/>
+        <class className="it.sephiroth.android.library.util.ViewHelperFactory" project="WeatherEx" xLocation="120" yLocation="120"/>
+        <class className="it.sephiroth.android.library.util.MathUtils" project="WeatherEx" xLocation="140" yLocation="140"/>
+        <class className="it.sephiroth.android.library.util.v11.MultiChoiceModeWrapper" project="WeatherEx" xLocation="160" yLocation="160"/>
+        <class className="it.sephiroth.android.library.util.v11.MultiChoiceModeListener" project="WeatherEx" xLocation="180" yLocation="180"/>
+        <class className="it.sephiroth.android.library.util.v14.ViewHelper14" project="WeatherEx" xLocation="200" yLocation="200"/>
+        <class className="it.sephiroth.android.library.util.v16.ViewHelper16" project="WeatherEx" xLocation="220" yLocation="220"/>
+        <class className="it.sephiroth.android.library.widget.ExpandableHListConnector" project="WeatherEx" xLocation="240" yLocation="240"/>
+        <class className="it.sephiroth.android.library.widget.ExpandableHListView" project="WeatherEx" xLocation="260" yLocation="260"/>
+        <class className="it.sephiroth.android.library.widget.AbsHListView" project="WeatherEx" xLocation="280" yLocation="280"/>
+        <class className="it.sephiroth.android.library.widget.OverScroller" project="WeatherEx" xLocation="300" yLocation="300"/>
+        <class className="it.sephiroth.android.library.widget.HListView" project="WeatherEx" xLocation="320" yLocation="320"/>
+        <class className="it.sephiroth.android.library.widget.HeaderViewListAdapter" project="WeatherEx" xLocation="340" yLocation="340"/>
+        <class className="it.sephiroth.android.library.widget.ExpandableHListPosition" project="WeatherEx" xLocation="360" yLocation="360"/>
+        <class className="it.sephiroth.android.library.widget.EdgeEffect" project="WeatherEx" xLocation="380" yLocation="380"/>
+        <class className="it.sephiroth.android.library.widget.AdapterView" project="WeatherEx" xLocation="400" yLocation="400"/>
+    </diagram>
+</ajsv>

@@ -9,6 +9,203 @@ package com.example.weatherEx;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int hlv_absHListViewStyle=0x7f010001;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int hlv_childDivider=0x7f01000e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int hlv_childIndicator=0x7f010010;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+         */
+        public static final int hlv_childIndicatorGravity=0x7f01000d;
+        /**  after gravity for the child indicator has been set 
+ a custom padding can be set 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hlv_childIndicatorPaddingLeft=0x7f010013;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hlv_childIndicatorPaddingTop=0x7f010014;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hlv_dividerWidth=0x7f010004;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int hlv_expandableListViewStyle=0x7f010003;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hlv_footerDividersEnabled=0x7f010006;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int hlv_groupIndicator=0x7f01000f;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hlv_headerDividersEnabled=0x7f010005;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+         */
+        public static final int hlv_indicatorGravity=0x7f01000c;
+        /**  after gravity for the indicator has been set 
+ a custom padding can be set 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hlv_indicatorPaddingLeft=0x7f010011;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hlv_indicatorPaddingTop=0x7f010012;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hlv_listPreferredItemWidth=0x7f010002;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int hlv_listViewStyle=0x7f010000;
+        /** 
+		When "wrap_content" is used as value of the layout_height property.
+		Pass the position, inside the adapter, of the view being used to measure the view
+		or '-1' to use the default behavior ( default is -1 )
+		
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hlv_measureWithChild=0x7f010009;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int hlv_overScrollFooter=0x7f010008;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int hlv_overScrollHeader=0x7f010007;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hlv_stackFromRight=0x7f01000a;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>disabled</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>alwaysScroll</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int hlv_transcriptMode=0x7f01000b;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -17,43 +214,83 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int bg_main=0x7f020000;
-        public static final int divider=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int sunny=0x7f020003;
+        public static final int bg1=0x7f020000;
+        public static final int bg_main_b=0x7f020001;
+        public static final int divider=0x7f020002;
+        public static final int hlv_overscroll_edge=0x7f020003;
+        public static final int hlv_overscroll_glow=0x7f020004;
+        public static final int ic_citys=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int list_bg=0x7f020007;
+        public static final int sunny=0x7f020008;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000c;
-        public static final int hlv_12h=0x7f080006;
-        public static final int imageView1=0x7f08000a;
-        public static final int img_divider_b=0x7f080007;
-        public static final int img_divider_t=0x7f080005;
-        public static final int pager=0x7f080000;
-        public static final int pager_title_strip=0x7f080001;
-        public static final int txt_city=0x7f080002;
-        public static final int txt_h_temp=0x7f08000b;
-        public static final int txt_temperature=0x7f080004;
-        public static final int txt_time=0x7f080009;
-        public static final int txt_weather=0x7f080003;
-        public static final int weather_week=0x7f080008;
+        public static final int TextView01=0x7f050029;
+        public static final int action_settings=0x7f05002b;
+        public static final int alwaysScroll=0x7f050002;
+        public static final int bottom=0x7f050004;
+        public static final int center=0x7f05000b;
+        public static final int center_horizontal=0x7f050009;
+        public static final int center_vertical=0x7f050007;
+        public static final int cityListFragment=0x7f050016;
+        public static final int clip_horizontal=0x7f05000e;
+        public static final int clip_vertical=0x7f05000d;
+        public static final int container=0x7f050028;
+        public static final int digitalClock1=0x7f050017;
+        public static final int disabled=0x7f050000;
+        public static final int end=0x7f050010;
+        public static final int fg_container=0x7f050015;
+        public static final int fill=0x7f05000c;
+        public static final int fill_horizontal=0x7f05000a;
+        public static final int fill_vertical=0x7f050008;
+        public static final int hlv_12h=0x7f050023;
+        public static final int imageView1=0x7f050013;
+        public static final int img_cites=0x7f050014;
+        public static final int img_divider_b=0x7f050024;
+        public static final int img_divider_t=0x7f050012;
+        public static final int left=0x7f050005;
+        public static final int middle=0x7f05001e;
+        public static final int normal=0x7f050001;
+        public static final int pager=0x7f050011;
+        public static final int right=0x7f050006;
+        public static final int start=0x7f05000f;
+        public static final int textView1=0x7f05001a;
+        public static final int top=0x7f050003;
+        public static final int txt_city=0x7f05001b;
+        public static final int txt_city_name=0x7f050018;
+        public static final int txt_city_temp=0x7f050019;
+        public static final int txt_h_temp=0x7f050026;
+        public static final int txt_l_temp=0x7f050027;
+        public static final int txt_m_h_temp=0x7f050021;
+        public static final int txt_m_l_temp=0x7f050022;
+        public static final int txt_temperature=0x7f05001d;
+        public static final int txt_time=0x7f05002a;
+        public static final int txt_today=0x7f050020;
+        public static final int txt_weather=0x7f05001c;
+        public static final int txt_week=0x7f05001f;
+        public static final int weather_day=0x7f050025;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int city_fragment=0x7f030001;
-        public static final int hour_info=0x7f030002;
+        public static final int city=0x7f030001;
+        public static final int city_fragment=0x7f030002;
+        public static final int city_list_fragment=0x7f030003;
+        public static final int day_info=0x7f030004;
+        public static final int hor_list_view=0x7f030005;
+        public static final int hour_info=0x7f030006;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int city=0x7f050007;
-        public static final int temperature=0x7f050005;
-        public static final int title_section1=0x7f050002;
-        public static final int title_section2=0x7f050003;
-        public static final int title_section3=0x7f050004;
-        public static final int weather=0x7f050006;
+        public static final int action_settings=0x7f060001;
+        public static final int app_name=0x7f060000;
+        public static final int city=0x7f060007;
+        public static final int temperature=0x7f060005;
+        public static final int title_section1=0x7f060002;
+        public static final int title_section2=0x7f060003;
+        public static final int title_section3=0x7f060004;
+        public static final int weather=0x7f060006;
     }
     public static final class style {
         /** 
@@ -66,9 +303,429 @@ public final class R {
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a AbsHListView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AbsHListView_android_cacheColorHint com.example.weatherEx:android_cacheColorHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_android_choiceMode com.example.weatherEx:android_choiceMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_android_drawSelectorOnTop com.example.weatherEx:android_drawSelectorOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_android_listSelector com.example.weatherEx:android_listSelector}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_android_scrollingCache com.example.weatherEx:android_scrollingCache}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_android_smoothScrollbar com.example.weatherEx:android_smoothScrollbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_hlv_stackFromRight com.example.weatherEx:hlv_stackFromRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_hlv_transcriptMode com.example.weatherEx:hlv_transcriptMode}</code></td><td></td></tr>
+           </table>
+           @see #AbsHListView_android_cacheColorHint
+           @see #AbsHListView_android_choiceMode
+           @see #AbsHListView_android_drawSelectorOnTop
+           @see #AbsHListView_android_listSelector
+           @see #AbsHListView_android_scrollingCache
+           @see #AbsHListView_android_smoothScrollbar
+           @see #AbsHListView_hlv_stackFromRight
+           @see #AbsHListView_hlv_transcriptMode
+         */
+        public static final int[] AbsHListView = {
+            0x010100fb, 0x010100fc, 0x010100fe, 0x01010101,
+            0x0101012b, 0x01010231, 0x7f01000a, 0x7f01000b
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#android_cacheColorHint}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:android_cacheColorHint
+        */
+        public static final int AbsHListView_android_cacheColorHint = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#android_choiceMode}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:android_choiceMode
+        */
+        public static final int AbsHListView_android_choiceMode = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#android_drawSelectorOnTop}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:android_drawSelectorOnTop
+        */
+        public static final int AbsHListView_android_drawSelectorOnTop = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#android_listSelector}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:android_listSelector
+        */
+        public static final int AbsHListView_android_listSelector = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#android_scrollingCache}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:android_scrollingCache
+        */
+        public static final int AbsHListView_android_scrollingCache = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#android_smoothScrollbar}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:android_smoothScrollbar
+        */
+        public static final int AbsHListView_android_smoothScrollbar = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_stackFromRight}
+          attribute's value can be found in the {@link #AbsHListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:hlv_stackFromRight
+        */
+        public static final int AbsHListView_hlv_stackFromRight = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_transcriptMode}
+          attribute's value can be found in the {@link #AbsHListView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>disabled</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>alwaysScroll</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name android:hlv_transcriptMode
+        */
+        public static final int AbsHListView_hlv_transcriptMode = 7;
+        /** Attributes that can be used with a ExpandableHListView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ExpandableHListView_hlv_childDivider com.example.weatherEx:hlv_childDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableHListView_hlv_childIndicator com.example.weatherEx:hlv_childIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableHListView_hlv_childIndicatorGravity com.example.weatherEx:hlv_childIndicatorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableHListView_hlv_childIndicatorPaddingLeft com.example.weatherEx:hlv_childIndicatorPaddingLeft}</code></td><td> after gravity for the child indicator has been set 
+ a custom padding can be set </td></tr>
+           <tr><td><code>{@link #ExpandableHListView_hlv_childIndicatorPaddingTop com.example.weatherEx:hlv_childIndicatorPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableHListView_hlv_groupIndicator com.example.weatherEx:hlv_groupIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableHListView_hlv_indicatorGravity com.example.weatherEx:hlv_indicatorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #ExpandableHListView_hlv_indicatorPaddingLeft com.example.weatherEx:hlv_indicatorPaddingLeft}</code></td><td> after gravity for the indicator has been set 
+ a custom padding can be set </td></tr>
+           <tr><td><code>{@link #ExpandableHListView_hlv_indicatorPaddingTop com.example.weatherEx:hlv_indicatorPaddingTop}</code></td><td></td></tr>
+           </table>
+           @see #ExpandableHListView_hlv_childDivider
+           @see #ExpandableHListView_hlv_childIndicator
+           @see #ExpandableHListView_hlv_childIndicatorGravity
+           @see #ExpandableHListView_hlv_childIndicatorPaddingLeft
+           @see #ExpandableHListView_hlv_childIndicatorPaddingTop
+           @see #ExpandableHListView_hlv_groupIndicator
+           @see #ExpandableHListView_hlv_indicatorGravity
+           @see #ExpandableHListView_hlv_indicatorPaddingLeft
+           @see #ExpandableHListView_hlv_indicatorPaddingTop
+         */
+        public static final int[] ExpandableHListView = {
+            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f,
+            0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013,
+            0x7f010014
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_childDivider}
+          attribute's value can be found in the {@link #ExpandableHListView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name android:hlv_childDivider
+        */
+        public static final int ExpandableHListView_hlv_childDivider = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_childIndicator}
+          attribute's value can be found in the {@link #ExpandableHListView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android:hlv_childIndicator
+        */
+        public static final int ExpandableHListView_hlv_childIndicator = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_childIndicatorGravity}
+          attribute's value can be found in the {@link #ExpandableHListView} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+          @attr name android:hlv_childIndicatorGravity
+        */
+        public static final int ExpandableHListView_hlv_childIndicatorGravity = 1;
+        /**
+          <p>
+          @attr description
+           after gravity for the child indicator has been set 
+ a custom padding can be set 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android:hlv_childIndicatorPaddingLeft
+        */
+        public static final int ExpandableHListView_hlv_childIndicatorPaddingLeft = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_childIndicatorPaddingTop}
+          attribute's value can be found in the {@link #ExpandableHListView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:hlv_childIndicatorPaddingTop
+        */
+        public static final int ExpandableHListView_hlv_childIndicatorPaddingTop = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_groupIndicator}
+          attribute's value can be found in the {@link #ExpandableHListView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android:hlv_groupIndicator
+        */
+        public static final int ExpandableHListView_hlv_groupIndicator = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_indicatorGravity}
+          attribute's value can be found in the {@link #ExpandableHListView} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+          @attr name android:hlv_indicatorGravity
+        */
+        public static final int ExpandableHListView_hlv_indicatorGravity = 0;
+        /**
+          <p>
+          @attr description
+           after gravity for the indicator has been set 
+ a custom padding can be set 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android:hlv_indicatorPaddingLeft
+        */
+        public static final int ExpandableHListView_hlv_indicatorPaddingLeft = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_indicatorPaddingTop}
+          attribute's value can be found in the {@link #ExpandableHListView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:hlv_indicatorPaddingTop
+        */
+        public static final int ExpandableHListView_hlv_indicatorPaddingTop = 6;
+        /** Attributes that can be used with a HListView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #HListView_android_divider com.example.weatherEx:android_divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_android_entries com.example.weatherEx:android_entries}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_hlv_dividerWidth com.example.weatherEx:hlv_dividerWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_hlv_footerDividersEnabled com.example.weatherEx:hlv_footerDividersEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_hlv_headerDividersEnabled com.example.weatherEx:hlv_headerDividersEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_hlv_measureWithChild com.example.weatherEx:hlv_measureWithChild}</code></td><td>
+		When "wrap_content" is used as value of the layout_height property.</td></tr>
+           <tr><td><code>{@link #HListView_hlv_overScrollFooter com.example.weatherEx:hlv_overScrollFooter}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_hlv_overScrollHeader com.example.weatherEx:hlv_overScrollHeader}</code></td><td></td></tr>
+           </table>
+           @see #HListView_android_divider
+           @see #HListView_android_entries
+           @see #HListView_hlv_dividerWidth
+           @see #HListView_hlv_footerDividersEnabled
+           @see #HListView_hlv_headerDividersEnabled
+           @see #HListView_hlv_measureWithChild
+           @see #HListView_hlv_overScrollFooter
+           @see #HListView_hlv_overScrollHeader
+         */
+        public static final int[] HListView = {
+            0x010100b2, 0x01010129, 0x7f010004, 0x7f010005,
+            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#android_divider}
+          attribute's value can be found in the {@link #HListView} array.
+          @attr name android:android_divider
+        */
+        public static final int HListView_android_divider = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#android_entries}
+          attribute's value can be found in the {@link #HListView} array.
+          @attr name android:android_entries
+        */
+        public static final int HListView_android_entries = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_dividerWidth}
+          attribute's value can be found in the {@link #HListView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:hlv_dividerWidth
+        */
+        public static final int HListView_hlv_dividerWidth = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_footerDividersEnabled}
+          attribute's value can be found in the {@link #HListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:hlv_footerDividersEnabled
+        */
+        public static final int HListView_hlv_footerDividersEnabled = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_headerDividersEnabled}
+          attribute's value can be found in the {@link #HListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:hlv_headerDividersEnabled
+        */
+        public static final int HListView_hlv_headerDividersEnabled = 3;
+        /**
+          <p>
+          @attr description
+          
+		When "wrap_content" is used as value of the layout_height property.
+		Pass the position, inside the adapter, of the view being used to measure the view
+		or '-1' to use the default behavior ( default is -1 )
+		
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android:hlv_measureWithChild
+        */
+        public static final int HListView_hlv_measureWithChild = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_overScrollFooter}
+          attribute's value can be found in the {@link #HListView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name android:hlv_overScrollFooter
+        */
+        public static final int HListView_hlv_overScrollFooter = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.weatherEx.R.attr#hlv_overScrollHeader}
+          attribute's value can be found in the {@link #HListView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name android:hlv_overScrollHeader
+        */
+        public static final int HListView_hlv_overScrollHeader = 5;
+    };
 }

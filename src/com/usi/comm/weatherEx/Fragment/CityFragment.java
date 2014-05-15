@@ -1,13 +1,15 @@
 package com.usi.comm.weatherEx.Fragment;
 
+import it.sephiroth.android.library.widget.HListView;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.example.weatherEx.R;
-import com.usi.comm.common.view.HorizontialListView;
+import com.usi.comm.weatherEx.adapter.DayInfoAdapter;
 import com.usi.comm.weatherEx.adapter.HourInfoAdapter;
 
 public class CityFragment extends Fragment {
@@ -24,9 +26,13 @@ public class CityFragment extends Fragment {
 			Bundle savedInstanceState) {
 		View rootView = inflater.inflate(R.layout.city_fragment, container,
 				false);
-		HorizontialListView hlv = (HorizontialListView) rootView
+		HListView hlv = (HListView) rootView
 				.findViewById(R.id.hlv_12h);
 		hlv.setAdapter(new HourInfoAdapter(getActivity()));
+		
+		
+		ListView dayList = (ListView) rootView.findViewById(R.id.weather_day);
+		dayList.setAdapter(new DayInfoAdapter(getActivity()));
 		
 		return rootView;
 	}

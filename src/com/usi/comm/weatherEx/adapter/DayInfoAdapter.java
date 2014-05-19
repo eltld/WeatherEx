@@ -1,10 +1,8 @@
 package com.usi.comm.weatherEx.adapter;
 
-import java.util.Calendar;
-import java.util.Locale;
+import java.util.Random;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -53,10 +51,13 @@ public class DayInfoAdapter extends BaseAdapter {
 			// TODO customization
 		}
 
-		TextView txt_hour = (TextView) convertView.findViewById(R.id.txt_week);
-		txt_hour.setText(getItem(position).toString());
-
+		((TextView) convertView.findViewById(R.id.txt_week)).setText(getItem(position).toString());
 		
+		int hTemperature = new Random().nextInt(35) + 5;
+		int lTemperature = new Random().nextInt(Math.max(hTemperature - 5, 1)) + 5;
+		
+		((TextView) convertView.findViewById(R.id.txt_h_temp)).setText(hTemperature + "°");
+		((TextView) convertView.findViewById(R.id.txt_l_temp)).setText(lTemperature + "°");
 		
 		return convertView;
 	}

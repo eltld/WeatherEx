@@ -1,21 +1,21 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:alpha="1"
-    android:background="@drawable/bg1"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
-
+    tools:context=".MainActivity"
+    android:background="@android:color/transparent" >
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
-           android:layout_height="0dp"
-        android:layout_weight="0.9" >
-         
+        android:layout_height="match_parent"
+        >
 
-        <!--<android.support.v4.view.PagerTitleStrip
+        <!--
+            <android.support.v4.view.PagerTitleStrip
             android:id="@+id/pager_title_strip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,24 +23,25 @@
             android:background="#33b5e5"
             android:paddingBottom="4dp"
             android:paddingTop="4dp"
-            android:textColor="#fff" />-->
+            android:textColor="#fff" />
+        -->
     </android.support.v4.view.ViewPager>
 
+<!--     <ImageView -->
+<!--         android:id="@+id/img_divider_t" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="1px" -->
+<!--         android:contentDescription="@string/title_section2" -->
+<!--         android:scaleType="fitXY" -->
+<!--         android:src="@drawable/divider" /> -->
 
-            <ImageView
-        android:id="@+id/img_divider_t"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-
-
-        android:contentDescription="@string/title_section2"
-        android:scaleType="fitXY"
-        android:src="@drawable/divider" />
-        
+    <!-- bottom menu -->
     <RelativeLayout
         android:id="@+id/bottom"
         android:layout_width="match_parent"
-        android:layout_height="30dp" >
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent" >
 
         <ImageView
             android:id="@+id/imageView1"
@@ -49,7 +50,7 @@
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="5dp"
             android:contentDescription="@string/city"
-            android:src="@drawable/sunny" />
+            android:src="@drawable/btn_info" />
 
         <ImageView
             android:id="@+id/img_cites"
@@ -58,7 +59,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="5dp"
             android:contentDescription="@string/city"
-            android:src="@drawable/ic_citys" />
+            android:src="@drawable/btn_city_list" />
     </RelativeLayout>
 
-</LinearLayout>
+</RelativeLayout>

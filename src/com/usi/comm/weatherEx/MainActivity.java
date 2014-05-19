@@ -2,15 +2,20 @@ package com.usi.comm.weatherEx;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.example.weatherEx.R;
+import com.usi.comm.weatherEx.Fragment.CityFragment;
 import com.usi.comm.weatherEx.adapter.SectionsPagerAdapter;
 
 public class MainActivity extends FragmentActivity {
@@ -31,12 +36,15 @@ public class MainActivity extends FragmentActivity {
 	ViewPager mViewPager;
 
 	Activity citesActivity;
+	
+	ViewGroup mContainer = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+		mContainer = (ViewGroup) findViewById(R.id.container);
 		// Create the adapter that will return a fragment for each of the three
 		// primary sections of the app.
 		mSectionsPagerAdapter = new SectionsPagerAdapter(
@@ -49,7 +57,7 @@ public class MainActivity extends FragmentActivity {
 		((ImageView) findViewById(R.id.img_cites))
 				.setOnClickListener(cityListClick);
 
-
+		mViewPager.setOnPageChangeListener(pageChangeListener);
 	}
 
 	@Override
@@ -59,22 +67,40 @@ public class MainActivity extends FragmentActivity {
 		return true;
 	}
 
+	public static final int requestCode = 0xfe;
 	private OnClickListener cityListClick = new OnClickListener() {
 
 		@Override
 		public void onClick(View v) {
-//			if(citesActivity == null) {
-//				citesActivity = new CitesActivity();
-//			}
-			
-			Intent t= new Intent(MainActivity.this,CitesActivity.class);
-			
-			startActivity(t);
-			
-			overridePendingTransition(R.anim.bottom_to_up_in, R.anim.bottom_to_up_out);
+			Intent t = new Intent(MainActivity.this, CityListActivity.class);
+			startActivityForResult(t, requestCode);
+			overridePendingTransition(R.anim.slide_up_in, R.anim.slide_up_out);
 		}
 	};
 
+	protected void onActivityResult(int arg0, int arg1, Intent arg2) {
+		if(arg0 == requestCode && null != arg2) {
+			int pos = arg2.getIntExtra("POS", -1);
+			if(-1 != pos){
+				mViewPager.setCurrentItem(pos);
+			}
+		}
+	};
+	
+	private OnPageChangeListener pageChangeListener = new OnPageChangeListener() {
 
+		@Override
+		public void onPageSelected(int arg0) {
+		}
+
+		@Override
+		public void onPageScrolled(int arg0, float arg1, int arg2) {
+		}
+
+		@Override
+		public void onPageScrollStateChanged(int arg0) {
+
+		}
+	};
 
 }

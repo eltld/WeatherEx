@@ -13,14 +13,17 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         super(fm);
     }
 
+    private String[] cites = new String[] { "合肥", "上海", "南京", "东京" };
+    
     @Override
-    public Fragment getItem(int position) {
+    public CityFragment getItem(int position) {
         // getItem is called to instantiate the fragment for the given page.
         // Return a CityFragement (defined as a static inner class
         // below) with the page number as its lone argument.
-        Fragment fragment = new CityFragment();
+    	CityFragment fragment = new CityFragment();
         Bundle args = new Bundle();
-        args.putInt(CityFragment.ARG_SECTION_NUMBER, position + 1);
+        args.putInt(CityFragment.ARG_SECTION_NUMBER, position);
+        args.putString("CITY", cites[position]);
         fragment.setArguments(args);
         return fragment;
     }
@@ -28,7 +31,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // Show 3 total pages.
-        return 3;
+        return cites.length;
     }
 
     @Override
